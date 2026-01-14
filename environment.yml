@@ -1,0 +1,37 @@
+name: hurricane
+
+channels:
+  - conda-forge
+  - pytorch
+
+dependencies:
+  - python=3.10
+
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - imbalanced-learn
+  - statsmodels
+
+  - matplotlib
+  - seaborn
+
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  - sympy
+  - pillow
+  - opencv
+  - tqdm
+  - pyyaml
+
+  - pip
+  - pip:
+      - ml-insights
+      - splinecalib
+      - netcal
+      - gpytorch
+      - pyro-ppl
+      - tikzplotlib
